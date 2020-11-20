@@ -39,3 +39,17 @@ a:visited {
         margin: 0;
     }
 }
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
