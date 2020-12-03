@@ -3,6 +3,17 @@
     float: left;
 }
 
-#main-section {
+.main-section {
+    margin-top: 10%;
+    text-align: center;
+}
 
+body {
+    padding-top: 40px;
+}
+
+@media (min-width: 600px) {
+    body {
+        padding-top: 20px;
+    }
 }
