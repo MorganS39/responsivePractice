@@ -77,16 +77,12 @@ img {
   width: 100%;
 }
 
-.nav {
-    display: flex;
-    justify-content: flex-end;
+#navbar {
     position: fixed;
     top: 0;
-    left: 0;
+    overflow: hidden;
     width: 100%;
-    background: var(--main-red);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 10;
+    background-color: #be3144;
 }
   
 .nav-list {
